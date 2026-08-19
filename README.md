@@ -1,64 +1,82 @@
-# Hi, I'm Nardy
+# 👋 Hi, I'm Nardy
 
-**Software Engineer | Full-Stack & Mobile | AI/ML**
+### Junior Software Engineer | Full-Stack & Mobile | AI/ML
 
-Software Engineer focused on full-stack and mobile development, with experience building React and React Native applications, TypeScript/NestJS backends, APIs, database-driven systems, and AI/ML applications.
+I’m a junior software engineer focused on building full-stack and mobile applications with React, React Native, TypeScript, NestJS, and REST APIs.
 
-I enjoy building complete products across frontend, backend, data, deployment, and performance—while exploring practical applications of AI, NLP, and machine learning.
+My work combines frontend development, backend systems, databases, deployment, performance testing, and practical AI/ML. I enjoy turning ideas into complete, usable products while continuing to strengthen my software-engineering fundamentals.
 
-## Tech Stack
+## 🧰 Tech Stack
 
 **Frontend**  
 React · React Native · Next.js · TypeScript
 
 **Backend**  
-NestJS · Node.js · FastAPI · REST APIs
+NestJS · Node.js · FastAPI · Spring Boot · REST APIs
 
 **Data**  
-PostgreSQL · Supabase · SQL · Redis
+PostgreSQL · Supabase · MongoDB · SQL · Redis
 
-**DevOps & Cloud**  
-Docker · AWS · GitHub Actions · k6
+**Mobile**  
+Flutter · Dart · FlutterFlow · Firebase
+
+**DevOps & Engineering**  
+Docker · AWS · GitHub Actions · Linux · Nginx · k6 · JMeter
 
 **AI / ML**  
-Python · scikit-learn · NLP · SBERT · TensorFlow.js / MediaPipe
+Python · scikit-learn · TensorFlow · OpenCV · YOLO · NLP · SBERT · TF-IDF · MediaPipe
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### 1. [AI Interactive Portfolio](https://github.com/Nardy11/AI-Interactive-Portfolio)
+### 🧠 [AI Interactive Portfolio](https://github.com/Nardy11/AI-Interactive-Portfolio)
 
-An interactive portfolio built with Next.js and TypeScript that combines web engineering with practical AI experiences. It includes MediaPipe and TensorFlow.js gesture navigation, plus an NLP/SBERT conversational interface with voice functionality.
+An interactive portfolio combining modern web development with computer vision and NLP. It includes gesture-based navigation using MediaPipe and TensorFlow.js, an SBERT-powered conversational interface, and browser voice interaction.
 
-**Next.js · TypeScript · MediaPipe · TensorFlow.js · NLP · SBERT**
+**Next.js · TypeScript · FastAPI · MediaPipe · TensorFlow.js · SBERT**
 
-### 2. [AI Resume Analyzer](https://github.com/Nardy11/resume-ml-project)
+### 📄 [AI Resume Analyzer](https://github.com/Nardy11/resume-ml-project)
 
-A FastAPI service for matching CVs against job descriptions using SBERT and TF-IDF. It provides skill-gap analysis, explainable scoring, bias checks, PDF handling, pytest coverage, and Docker-based setup.
+A FastAPI service that compares CVs with job descriptions using SBERT and TF-IDF. It includes skill-gap analysis, explainable scoring, bias checks, PDF processing, automated tests, Docker support, and GitHub Actions CI.
 
-**FastAPI · SBERT · TF-IDF · NLP · pytest · Docker**
+**FastAPI · SBERT · TF-IDF · pytest · Docker · GitHub Actions**
 
-### 3. [Transaction Category Prediction](https://github.com/Nardy11/Transaction-Category-Prediction-ML-)
+### 💳 [Transaction Category Prediction](https://github.com/Nardy11/Transaction-Category-Prediction-ML-)
 
-An NLP pipeline for categorizing retail transactions using TF-IDF, TruncatedSVD, K-Means clustering, and Logistic Regression. Categories are derived from clusters, so evaluation reflects agreement with generated labels rather than independently verified ground-truth categories.
+A hybrid NLP and machine-learning pipeline for categorizing retail transactions using TF-IDF, TruncatedSVD, K-Means clustering, and Logistic Regression. The project documents the limitations of evaluating against cluster-generated pseudo-labels.
 
 **Python · scikit-learn · TF-IDF · TruncatedSVD · K-Means · Logistic Regression**
 
-### 4. [Heart Failure Prediction](https://github.com/Nardy11/Heart_Failure_prediction)
+### 🩺 [Heart Failure Prediction](https://github.com/Nardy11/Heart_Failure_prediction)
 
-An educational machine-learning project exploring preprocessing, feature engineering, PCA, clustering, classification, and hyperparameter tuning on a heart-disease dataset. It is intended for learning and analysis, not clinical use.
+An educational machine-learning project exploring preprocessing, feature engineering, PCA, clustering, classification, and hyperparameter tuning. The notebook compares Logistic Regression, Random Forest, and SVC configurations on a held-out test set.
 
-**Python · pandas · scikit-learn · PCA · K-Means · GridSearchCV**
+**Python · pandas · scikit-learn · PCA · Random Forest · GridSearchCV**
 
-### 5. [Climate Edge Flutter App](https://github.com/Nardy11/Climate-Edge-Company-Flutter-app-web)
+### 📱 [Climate Edge Flutter App](https://github.com/Nardy11/Climate-Edge-Company-Flutter-app-web)
 
 A Flutter mobile/web application integrating Firebase Authentication, Cloud Firestore, Firebase Storage, file picking, PDF viewing, and download workflows.
 
-**Flutter · Dart · Firebase Auth · Firestore · Firebase Storage · File Handling**
+**Flutter · Dart · Firebase Auth · Firestore · Firebase Storage**
 
-## Current Focus
+## 🎯 Current Focus
 
-Currently strengthening my work in scalable full-stack applications with React/React Native, TypeScript/NestJS, and PostgreSQL/Supabase. I’m also building experience with Docker, deployment, application performance/load testing, and AI-assisted software development.
+- Building scalable full-stack and mobile applications
+- Strengthening React, React Native, TypeScript, and NestJS
+- Working with PostgreSQL, Supabase, Docker, and cloud deployment
+- Learning more about application performance, load testing, and AI-assisted development
 
-## Contact
+## 💼 Professional Background
 
-[GitHub](https://github.com/Nardy11)
+Currently working as a junior full-stack/software engineer, contributing to frontend, mobile, backend, API, database, and application-engineering work.
+
+Previously worked across technical operations, Flutter development, computer vision, machine learning, and data analysis.
+
+## 📫 Connect
+
+- [LinkedIn](https://www.linkedin.com/in/nardy-attallah)
+- [Live Portfolio](https://ai-interactive-portfolio.vercel.app/)
+- [GitHub](https://github.com/Nardy11)
+
+---
+
+📍 Cairo, Egypt · 🎓 Computer Engineering Graduate
