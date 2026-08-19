@@ -64,7 +64,11 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 ## 🐍 Contribution Activity
 
-![GitHub contribution snake](https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake.svg">
+</picture>
 
 ## 🎯 Current Focus
 
