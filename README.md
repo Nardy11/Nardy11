@@ -58,6 +58,18 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 **Python · pandas · scikit-learn · PCA · Random Forest · GridSearchCV**
 
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Nardy11&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="Nardy's GitHub statistics" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nardy11&hide_border=true&theme=transparent" height="165" alt="Nardy's contribution streak" />
+
+</div>
+
+[![Nardy's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Nardy11&theme=github-compact&hide_border=true&area=true)](https://github.com/Nardy11)
+
 ## 🎯 Current Focus
 
 - Building scalable full-stack and mobile applications
