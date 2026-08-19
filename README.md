@@ -62,6 +62,9 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 [![Nardy's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Nardy11&theme=github-compact&hide_border=true&area=true)](https://github.com/Nardy11)
 
+## 🐍 Contribution Activity
+
+![GitHub contribution snake](https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake.svg)
 
 ## 🎯 Current Focus
 
