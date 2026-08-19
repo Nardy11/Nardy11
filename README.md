@@ -49,13 +49,7 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 **Python · pandas · scikit-learn · PCA · K-Means · GridSearchCV**
 
-### 5. [WorkBoard Full-Stack Platform](https://github.com/Nardy11/WorkBoard-Full-Stack-Work-Management-Platform)
-
-A production-oriented work-management platform scaffold demonstrating service boundaries, API documentation, containerized infrastructure, CI validation, and load-testing entry points.
-
-**Next.js · NestJS · PostgreSQL · Redis · Docker · k6**
-
-### 6. [Climate Edge Flutter App](https://github.com/Nardy11/Climate-Edge-Company-Flutter-app-web)
+### 5. [Climate Edge Flutter App](https://github.com/Nardy11/Climate-Edge-Company-Flutter-app-web)
 
 A Flutter mobile/web application integrating Firebase Authentication, Cloud Firestore, Firebase Storage, file picking, PDF viewing, and download workflows.
 
