@@ -29,7 +29,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_LOGIN: Nardy11
           OUT_DIR: dist
-        run: python3 .github/scripts/activity_graph.py
+        run: |
+          # the snake action runs in Docker as root, so dist/ comes back
+          # owned by root and is not writable by the runner user
+          sudo chown -R "$(id -u):$(id -g)" dist
+          python3 .github/scripts/activity_graph.py
 
       - name: Publish graphics
         uses: crazy-max/ghaction-github-pages@v5
