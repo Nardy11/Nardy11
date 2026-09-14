@@ -60,7 +60,11 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 ## 📊 GitHub Activity
 
-[![Nardy's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Nardy11&theme=github-compact&hide_border=true&area=true)](https://github.com/Nardy11)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph.svg">
+  <img alt="Nardy's activity graph" src="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph.svg">
+</picture>
 
 ## 🐍 Contribution Activity
 
