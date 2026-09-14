@@ -60,11 +60,15 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 ## 📊 GitHub Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph.svg">
-  <img alt="Nardy's activity graph" src="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph.svg">
-</picture>
+<a href="https://nardy11.github.io/Nardy11/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph.svg">
+    <img alt="Nardy's activity graph" src="https://raw.githubusercontent.com/Nardy11/Nardy11/output/activity-graph.svg">
+  </picture>
+</a>
+
+<sub>📈 <a href="https://nardy11.github.io/Nardy11/">Open the interactive version</a> to hover any day for its exact contribution count.</sub>
 
 ## 🐍 Contribution Activity
 
