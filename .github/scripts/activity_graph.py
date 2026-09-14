@@ -1,4 +1,8 @@
-"""Render a GitHub contribution activity graph as a self-hosted SVG.
+"""Render a GitHub contribution activity graph.
+
+Emits static SVGs for the README (light + dark) and an interactive
+index.html with per-day hover tooltips, since an SVG embedded in a README
+is loaded in secure static mode and cannot respond to hover.
 
 Replaces github-readme-activity-graph.vercel.app, which returns
 402 DEPLOYMENT_DISABLED. Data comes straight from the GitHub GraphQL API,
@@ -214,6 +218,35 @@ viewBox="0 0 {W} {H}" role="img" aria-label="{login}'s contribution activity gra
 """
 
 
+def longest_streak(days):
+    best = run = 0
+    for _, count in days:
+        run = run + 1 if count else 0
+        best = max(best, run)
+    return best
+
+
+def render_page(login, days, total):
+    """Fill the interactive page template with this run's data."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(here, "page_template.html"), encoding="utf-8") as fh:
+        html = fh.read()
+
+    counts = [n for _, n in days]
+    swaps = {
+        "__LOGIN__": login,
+        "__UPDATED__": datetime.now(timezone.utc).strftime("%d %b %Y"),
+        "__TOTAL__": f"{total:,}",
+        "__PEAK__": f"{max(counts):,}",
+        "__ACTIVE__": f"{sum(1 for n in counts if n):,}",
+        "__STREAK__": f"{longest_streak(days)} days",
+        "__DATA_JSON__": json.dumps([[d.isoformat(), n] for d, n in days]),
+    }
+    for token, value in swaps.items():
+        html = html.replace(token, value)
+    return html
+
+
 def main():
     login = os.environ.get("GH_LOGIN", "Nardy11")
     token = os.environ.get("GH_TOKEN")
@@ -226,10 +259,13 @@ def main():
         raise SystemExit("no contribution data returned")
 
     os.makedirs(out_dir, exist_ok=True)
-    for name in THEMES:
+    outputs = {name: render(login, days, total, name) for name in THEMES}
+    outputs["index.html"] = render_page(login, days, total)
+
+    for name, content in outputs.items():
         path = os.path.join(out_dir, name)
         with open(path, "w", encoding="utf-8") as fh:
-            fh.write(render(login, days, total, name))
+            fh.write(content)
         print(f"wrote {path}")
 
 

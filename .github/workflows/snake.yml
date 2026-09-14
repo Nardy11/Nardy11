@@ -34,6 +34,8 @@ jobs:
           # owned by root and is not writable by the runner user
           sudo chown -R "$(id -u):$(id -g)" dist
           python3 .github/scripts/activity_graph.py
+          # serve the page as-is, without a Jekyll build
+          touch dist/.nojekyll
 
       - name: Publish graphics
         uses: crazy-max/ghaction-github-pages@v5
