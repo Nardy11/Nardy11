@@ -1,64 +1,88 @@
 <div align="center">
 
-# 👋 Hi, I'm Nardy
+# Hi, I'm Nardy 👋
 
-### Junior Software Engineer · Full-Stack & Mobile · AI/ML
+### Machine Learning Engineer · Computer Vision · NLP · Generative AI
 
-Building practical applications across frontend, backend, mobile, data, and AI.
+I build ML systems that leave the notebook: models with safety checks, real-time perception,
+and language features, served inside products people actually use.
 
-[LinkedIn](https://www.linkedin.com/in/nardy-attallah) · [Live Portfolio](https://ai-interactive-portfolio.vercel.app/) · [GitHub](https://github.com/Nardy11)
+**Full Stack Engineer at Poseidon IT** · Computer Engineering graduate · Cairo, Egypt
 
-[![Skills](https://skillicons.dev/icons?i=ts,react,nextjs,nestjs,nodejs,python,flutter,postgres,redis,docker,aws)](https://skillicons.dev)
+**🟢 Open to freelance ML work**
+
+[![Email](https://img.shields.io/badge/Email-nardymichelle2003%40gmail.com-c5221f?logo=gmail&logoColor=white)](mailto:nardymichelle2003@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-nardy--attallah-0a66c2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nardy-attallah) [![Portfolio](https://img.shields.io/badge/Live%20portfolio-visit-111?logo=vercel&logoColor=white)](https://ai-interactive-portfolio.vercel.app/)
+
+[![ML stack](https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,sklearn,fastapi,docker)](https://skillicons.dev)
+<br/>
+[![Product stack](https://skillicons.dev/icons?i=ts,react,nextjs,nestjs,postgres,flutter)](https://skillicons.dev)
 
 </div>
 
-## 👨‍💻 About Me
+---
 
-I’m a junior software engineer focused on building full-stack and mobile applications with React, React Native, TypeScript, NestJS, and REST APIs.
+## 🧠 What I build
 
-My work combines frontend development, backend systems, databases, deployment, performance testing, and practical AI/ML. I enjoy turning ideas into complete, usable products while strengthening my software-engineering fundamentals.
+| 👁️ Computer vision | 💬 NLP & LLMs | 🎨 Generative AI | ⚙️ ML engineering |
+|---|---|---|---|
+| Detection & tracking (YOLO, OpenVINO) | Semantic matching (SBERT, TF-IDF) | Diffusion image editing (FLUX.2) | FastAPI model serving |
+| Segmentation & pose (SegFormer, MediaPipe) | Text classification & clustering | Safety & content checks | Docker, CI, tests |
+| Body measurement from photos | LLM features (Gemini) | Self-hosted, GPU-efficient inference | Deploying ML inside real products |
 
-## 🧭 What I Build
+## 🚀 Featured ML projects
 
-| 🛠️ Software Engineering | 📱 Mobile & Product | 🧠 AI / Data |
-|---|---|---|
-| React, Next.js, NestJS, REST APIs | React Native, Flutter, Firebase | NLP, computer vision, ML pipelines |
-| PostgreSQL, Supabase, Redis | Cross-platform user experiences | Python, scikit-learn, SBERT |
-| Docker, AWS, CI, load testing | Practical workflow-driven apps | TF-IDF, PCA, model evaluation |
+### 🪞 [Velvet Mirror](https://github.com/Nardy11/velvet-mirror) · [▶ live](https://nardy11.github.io/velvet-mirror/)
+Virtual try-on that runs on a laptop GPU. FLUX.2 Klein redraws only the clothes. Clothes parsing and pose
+estimation place each garment on the body. It estimates your size from a photo and your height, then
+draws how a size you can buy would really fit. Every photo and result passes three independent safety checks.
 
-## 🚀 Featured Projects
+`PyTorch` `Diffusers` `SegFormer` `MediaPipe` `CLIP` `OpenCV` `FastAPI` `React`
 
-### 1. 🧠 [AI Interactive Portfolio](https://github.com/Nardy11/AI-Interactive-Portfolio)
+### 📄 [AI Resume Matcher](https://github.com/Nardy11/resume-ml-project)
+Scores a CV against a job description with SBERT embeddings and TF-IDF. It explains the score,
+lists the missing skills and flags biased wording, served as a tested, containerised FastAPI service.
 
-An interactive portfolio combining modern web development with computer vision and NLP. It includes gesture-based navigation using MediaPipe and TensorFlow.js, an SBERT-powered conversational interface, and browser voice interaction.
+`SBERT` `scikit-learn` `FastAPI` `pytest` `Docker` `GitHub Actions`
 
-**Next.js · TypeScript · FastAPI · MediaPipe · TensorFlow.js · SBERT**
+### 💳 [Transaction Category Prediction](https://github.com/Nardy11/Transaction-Category-Prediction-ML-)
+A hybrid NLP pipeline that sorts retail transactions into categories: TF-IDF, TruncatedSVD,
+K-Means and a classifier. Its write-up is honest about how far pseudo-labels can be trusted.
 
-### 2. 📱 [Climate Edge Flutter App](https://github.com/Nardy11/Climate-Edge-Company-Flutter-app-web)
+`scikit-learn` `TF-IDF` `K-Means` `Logistic Regression`
 
-A Flutter mobile/web application integrating Firebase Authentication, Cloud Firestore, Firebase Storage, file picking, PDF viewing, and download workflows.
+### 🖐️ [AI Interactive Portfolio](https://github.com/Nardy11/AI-Interactive-Portfolio) · [▶ live](https://ai-interactive-portfolio.vercel.app/)
+A portfolio you can browse with hand gestures (MediaPipe + TensorFlow.js in the browser) or by asking
+an SBERT-powered assistant.
 
-**Flutter · Dart · Firebase Auth · Firestore · Firebase Storage**
+`MediaPipe` `TensorFlow.js` `SBERT` `Next.js`
 
-### 3. 📄 [AI Resume Analyzer](https://github.com/Nardy11/resume-ml-project)
+### 🩺 [Heart Failure Prediction](https://github.com/Nardy11/Heart_Failure_prediction)
+An end-to-end classical ML study: feature engineering, PCA, clustering, and tuned Logistic Regression,
+Random Forest and SVC compared on a held-out test set.
 
-A FastAPI service that compares CVs with job descriptions using SBERT and TF-IDF. It includes skill-gap analysis, explainable scoring, bias checks, PDF processing, automated tests, Docker support, and GitHub Actions CI.
+`pandas` `scikit-learn` `PCA` `GridSearchCV`
 
-**FastAPI · SBERT · TF-IDF · pytest · Docker · GitHub Actions**
+## 🛠️ I also ship full products
 
-### 4. 💳 [Transaction Category Prediction](https://github.com/Nardy11/Transaction-Category-Prediction-ML-)
+At **Poseidon IT** I work as a full-stack engineer on web, mobile and API work. That is why my models
+come with a product around them. Some examples:
 
-A hybrid NLP and machine-learning pipeline for categorizing retail transactions using TF-IDF, TruncatedSVD, K-Means clustering, and Logistic Regression. The project documents the limitations of evaluating against cluster-generated pseudo-labels.
+- 🏥 [Virtual clinic](https://github.com/Nardy11/Aplus-Cant-Lose-Clinic) · [▶ live demo](https://nardy11.github.io/Aplus-Cant-Lose-Clinic/): video visits, payments and prescriptions (React, Express, MongoDB)
+- 📊 [Arabic sales operations](https://github.com/Nardy11/sales-mongaz-prototype): an RTL-first workspace for field sales teams (React, TypeScript, PostgreSQL)
+- 📱 [Climate Edge](https://github.com/Nardy11/Climate-Edge-Company-Flutter-app-web): a Flutter + Firebase document workflow app
 
-**Python · scikit-learn · TF-IDF · TruncatedSVD · K-Means · Logistic Regression**
+## 🤝 Work with me
 
-### 5. 🩺 [Heart Failure Prediction](https://github.com/Nardy11/Heart_Failure_prediction)
+I take freelance projects such as:
+- **Object detection & tracking** for retail, security or traffic video
+- **RAG chatbots** over your documents, in Arabic and English
+- **Document & CV matching**, semantic search, text classification
+- **Virtual try-on and image editing** with self-hosted generative models
+- **Notebook → production**: turning a model into a tested, deployed API
 
-An educational machine-learning project exploring preprocessing, feature engineering, PCA, clustering, classification, and hyperparameter tuning. The notebook compares Logistic Regression, Random Forest, and SVC configurations on a held-out test set.
+📧 [nardymichelle2003@gmail.com](mailto:nardymichelle2003@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/nardy-attallah)
 
-**Python · pandas · scikit-learn · PCA · Random Forest · GridSearchCV**
-
-## 📊 GitHub Activity
+## 📊 GitHub activity
 
 <a href="https://nardy11.github.io/Nardy11/">
   <picture>
@@ -70,33 +94,14 @@ An educational machine-learning project exploring preprocessing, feature enginee
 
 <sub>📈 <a href="https://nardy11.github.io/Nardy11/">Open the interactive version</a> to hover any day for its exact contribution count.</sub>
 
-## 🐍 Contribution Activity
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake.svg">
   <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Nardy11/Nardy11/output/github-contribution-grid-snake.svg">
 </picture>
 
-## 🎯 Current Focus
+## 💼 Background
 
-- Building scalable full-stack and mobile applications
-- Strengthening React, React Native, TypeScript, and NestJS
-- Working with PostgreSQL, Supabase, Docker, and cloud deployment
-- Improving application performance, load testing, and AI-assisted development
-
-## 💼 Professional Background
-
-Currently working as a junior full-stack/software engineer, contributing to frontend, mobile, backend, API, database, and application-engineering work.
-
-Previously worked across technical operations, Flutter development, computer vision, machine learning, and data analysis.
-
-## 📫 Connect
-
-- [LinkedIn](https://www.linkedin.com/in/nardy-attallah)
-- [Live Portfolio](https://ai-interactive-portfolio.vercel.app/)
-- [GitHub](https://github.com/Nardy11)
-
----
-
-📍 Cairo, Egypt · 🎓 Computer Engineering Graduate
+- **Now:** Full Stack Engineer at **Poseidon IT**: frontend, mobile, backend, APIs and databases.
+- **Before:** computer vision, machine learning, data analysis, Flutter development and technical operations.
+- **Graduation project:** cooperative perception for connected vehicles (YOLO, OpenVINO, lane detection, Kalman tracking, ROS).
